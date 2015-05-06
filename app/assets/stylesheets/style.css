@@ -14,7 +14,7 @@ body {
 	/*top: 0;*/
 	background-color: white;
 	/*background-size: 100%;*/
-  	background: url(http://i1301.photobucket.com/albums/ag119/jabattack1/ezgif.com-gif-maker%202_zpssybdcadu.gif);
+  	background: url(http://i1301.photobucket.com/albums/ag119/jabattack1/ezgif.com-gif-maker_zpszwsavkb7.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -23,10 +23,10 @@ body {
 }
 
 #logo {
-	height: 260px;
-	width: 260px;
-	margin-left:0px;
-	margin-top:5px;
+	height: 210px;
+	width: 210px;
+	margin-left:650px;
+	margin-top:20px;
 	z-index: 1; position:absolute;
 	outline-width: medium;
 	outline-color: white;
@@ -50,56 +50,58 @@ body {
   position: absolute;
   }*/
 
-#content_container {
-	content:url(http://i1301.photobucket.com/albums/ag119/jabattack1/TV%20NAKED_zpsn12pkgfd.png);
+/*#content_container {
+	/*content:url(http://i1301.photobucket.com/albums/ag119/jabattack1/TV%20NAKED_zpsn12pkgfd.png);*/
 	/*background-position: center;*/
-	height: 495px;
-	width: 645px;
-	margin-left: 280px;
-	margin-top: 180px;
+	/*height: 345px;
+	width: 495px;
+	margin-left: 170px;
+	margin-top: 300px;*/
 	/*position: static;*/
-	z-index: 1; 
+/*	z-index: 1; 
 	position:absolute;
-}
-
+	background-color:white;
+}*/
+/**/
 
 #content {
 	/*opacity: 0.4;*/
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: white;
-	margin-left: 330px;
-	margin-top: 225px;
+	margin-left: 20px;
+	margin-top: 20px;
 	position:absolute;
 	background-color: white;
-	width: 450px;
-	height: 380px;
+	width: 530px;
+	height: 420px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0);
-  	border-radius: 5px 5px 5px 5px;
+  	/*border-radius: 5px 5px 5px 5px;*/
   	overflow-x:none;
-  	overflow-y: auto;
-  	padding-right: 28px;
-  	border-bottom-left-radius:10%;
+  	overflow-y: none;
+  	/*padding-right: 28px;*/
+  	/*border-bottom-left-radius:10%;
   	border-bottom-right-radius:10%;
   	border-top-left-radius:10%;
   	border-top-right-radius:10%;
-  	z-index: -1;
+*/  	z-index: -1;
     
 }
 
 #audioplayer {
 	position:absolute;
-	/*background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/TOFU_zpspzj3dwth.png);*/
+	/*background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/colors_zpsax2gemuk.gif);*/
 	background-size: 400px 150px;
-	margin-left: 500px;
-	margin-top: 10px;
-	width: 400px;
-	height: 150px;
+	margin-left: 10px;
+	margin-top: 450px;
+	width: 350px;
+	height: 100px;
 	/*z-index: -10;*/
-	background-color:rgba(0,0,0,0.5);
-	border-style: solid;
-	border-color:white;
+	/*background-color:rgba(0,0,0,0.5);*/
+	/*background-color:black;*/
+	/*border-style: solid;*/
+	/*border-color:black;*/
     border-width: 3px;
     border-bottom-left-radius:10%;
   	border-bottom-right-radius:10%;
@@ -117,6 +119,10 @@ body {
 	margin-bottom: 0%;
 	overflow-x: none;
 	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
 }
 
 #offair {
@@ -129,6 +135,16 @@ body {
 	margin-bottom: 0%;
 	overflow-x: none;
 	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
+
+}
+
+#menu-bar {
+	margin-left: 610px;
+	margin-top: 20px;
 }
 
 #AudioBoy {
@@ -143,7 +159,7 @@ body {
 	color: #E0D669;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 60px;
+	margin-top: 0px;
 	position: absolute;
 	font-size: 27px;
 	width:255px;
@@ -168,9 +184,10 @@ body {
 	color: #E0D669;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 120px;
+	margin-top: 40px;
 	position: absolute;
 	font-size: 27px;
+	width:255px;
 }
 
 #PeterHahn:hover { 
@@ -191,9 +208,10 @@ body {
 	color: #E0D669;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 180px;
+	margin-top: 80px;
 	position: absolute;
 	font-size: 27px;
+	width:255px;
 }
 
 #MV:hover { 
@@ -214,9 +232,10 @@ body {
 	color: #E0D669;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 240px;
+	margin-top: 120px;
 	position: absolute;
 	font-size: 27px;
+	v
 }
 
 #Contact:hover { 
@@ -310,6 +329,11 @@ body {
 	overflow-x: none;
 	overflow-y: none;
 	background-color: #FF32EE;
+
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
 }
 
 #gel2 {
@@ -323,13 +347,17 @@ body {
 	overflow-x: none;
 	overflow-y: none;
 	background-color: #35FFEE;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
 }
 
 #video {
 	
   width: 855px;
   margin-top:230px;
-  margin-left:150px;
+  margin-left:20px;
   text-align: center;
   z-index: 10;
   position:absolute;
@@ -346,25 +374,47 @@ body {
 	overflow-x: none;
 	overflow-y: none;
 	background-color: #3FFF65;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
 }
 
 #RebelSolo {
 	position:absolute;
-	height:350px;
-	width: 550px;
+	height:100%;
+	width: 120%;
+	overflow-x: none;
+	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
 }
 
 #stuckgraph {
 	position:absolute;
-	height:350px;
-	width: 550px;
+	height:100%;
+	width: 100%;
+	overflow-x: none;
+	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
 }
 
 #scene{
 	position:absolute;
-	height:350px;
-	width: 550px;
-	margin-left:-100px;
+	height:100%;
+	width: 100%;
+	/*margin-left:-100px;*/
+	overflow-x: none;
+	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
 }
 
 #audio_microphone{
@@ -375,14 +425,14 @@ body {
 	font-family: 'Cabin', Georgia, Times, serif;
 	position:absolute;
 	font-size: 20px;
-	margin-top: 10px;
+	margin-top: 13px;
 	margin-left: 50px;
 	color:white;
 }
 
 #play_microphone{
 	margin-left:270px;
-	margin-top: 10px;
+	margin-top: 13px;
 	position:absolute;
 	/*background-color: #ccc;*/
     -moz-border-radius: 5px;
@@ -408,7 +458,7 @@ body {
 
 #pause_microphone{
 	margin-left:300px;
-	margin-top: 10px;
+	margin-top: 13px;
 	position:absolute;
 	 -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -425,7 +475,7 @@ body {
 
 #stop_microphone{
 	margin-left:330px;
-	margin-top: 10px;
+	margin-top: 13px;
 	position:absolute;
 	 -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -448,13 +498,13 @@ body {
 	font-family: 'Cabin', Georgia, Times, serif;
 	position:absolute;
 	font-size: 20px;
-	margin-top: 40px;
+	margin-top: 43px;
 	margin-left: 50px;
 	color:white;
 }
 
 #play_stuck{
-	margin-top: 40px;
+	margin-top: 43px;
 	margin-left:270px;
 	position:absolute;
 	 -moz-border-radius: 5px;
@@ -471,7 +521,7 @@ body {
 }
 
 #pause_stuck{
-	margin-top: 40px;
+	margin-top: 43px;
 	margin-left:300px;
 	position:absolute;
 	 -moz-border-radius: 5px;
@@ -488,7 +538,7 @@ body {
 }
 
 #stop_stuck{
-	margin-top: 40px;
+	margin-top: 43px;
 	margin-left:330px;
 	position:absolute;
 	 -moz-border-radius: 5px;
@@ -512,13 +562,13 @@ body {
 	font-family: 'Cabin', Georgia, Times, serif;
 	position:absolute;
 	font-size: 20px;
-	margin-top:70px;
+	margin-top:73px;
 	margin-left: 50px;
 	color:white;
 }
 
 #play_program{
-	margin-top:70px;
+	margin-top:73px;
 	margin-left:270px;
 	position:absolute;
 	 -moz-border-radius: 5px;
@@ -535,7 +585,7 @@ body {
 }
 
 #pause_program{
-	margin-top:70px;
+	margin-top:73px;
 	margin-left:300px;
 	position:absolute;
 	 -moz-border-radius: 5px;
@@ -552,7 +602,7 @@ body {
 }
 
 #stop_program{
-	margin-top:70px;
+	margin-top:73px;
 	margin-left:330px;
 	position:absolute;
 	 -moz-border-radius: 5px;
@@ -573,7 +623,7 @@ body {
 	color:black;
 	position:absolute;
 	font-size: 20px;
-	margin-top:100px;
+	margin-top:103px;
 	margin-left: 50px;
 	text-decoration: none;
 	color:white;
@@ -581,16 +631,17 @@ body {
 
 #direction:hover {
 	text-decoration: underline;
-	color:blue;
+	color:#35FFEE;
 }
 
 #direction {
 	font-family: 'Cabin', Georgia, Times, serif;
-	color:black;
+	color:white;
 	position:absolute;
 	font-size: 20px;
-	margin-top:100px;
+	margin-top:103px;
 	margin-left: 270px;
+	width: 200px;
 	text-decoration: none;
 }
 
@@ -618,8 +669,8 @@ body {
 #rights {
 	font-family: 'Belleza', Georgia, Times, serif;
 	color: #FFFFFF;
-	margin-left: 0px;
-	margin-top: 610px;
+	margin-left: 670px;
+	margin-top: 620px;
 	position: absolute;
 	
 	height: 20px; 
