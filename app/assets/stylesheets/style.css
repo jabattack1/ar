@@ -144,11 +144,11 @@ body {
 
 #menu-bar {
 	margin-left: 610px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 #AudioBoy {
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 
 	font-weight: bold;
 	text-shadow:
@@ -161,12 +161,12 @@ body {
 	margin-left: 12px;
 	margin-top: 0px;
 	position: absolute;
-	font-size: 27px;
-	width:255px;
+	font-size: 20px;
+	width:355px;
 }
 
 #AudioBoy:hover { 
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 
 	font-weight: bold;
     color: #9BCCF7;
@@ -174,7 +174,7 @@ body {
 }
 
 #PeterHahn {
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-shadow:
     -2px -2px 0 #000000,
@@ -184,21 +184,21 @@ body {
 	color: #E0D669;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 40px;
+	margin-top: 50px;
 	position: absolute;
-	font-size: 27px;
-	width:255px;
+	font-size: 20px;
+	width:355px;
 }
 
 #PeterHahn:hover { 
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-weight: bold;
     color: #9BCCF7;
     text-decoration: none;
 }
 
 #MV {
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-shadow:
     -2px -2px 0 #000000,
@@ -208,21 +208,21 @@ body {
 	color: #E0D669;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 80px;
+	margin-top: 100px;
 	position: absolute;
-	font-size: 27px;
-	width:255px;
+	font-size: 20px;
+	width:355px;
 }
 
 #MV:hover { 
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-weight: bold;
     color: #9BCCF7;
     text-decoration: none;
 }
 
 #Contact {
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-shadow:
     -2px -2px 0 #000000,
@@ -232,24 +232,24 @@ body {
 	color: #E0D669;
 	text-decoration: none;
 	margin-left: 12px;
-	margin-top: 120px;
+	margin-top: 150px;
 	position: absolute;
-	font-size: 27px;
-	v
+	font-size: 20px;
+	width: 355px;
 }
 
 #Contact:hover { 
-	font-family: 'Belleza', Helvetica, Arial, sans-serif;
+	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-weight: bold;
     color: #9BCCF7;
     text-decoration: none;
 }
 
 #photo {
-	width: 170px;
-	height: 200px;
-	margin-top: 110px;
-	margin-left:130px;
+	width: 210px;
+	height: 250px;
+	margin-top: 120px;
+	margin-left:165px;
 }
 
 .grow { transition: all .2s ease-in-out; }
@@ -264,56 +264,57 @@ body {
 #audiopeter {
 	position:absolute;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	text-shadow:
     -1px -1px 0 #000000,
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 130px;
-    margin-left:90px;
+    margin-top: 230px;
+    margin-left:110px;
 
 }
 
 #audiodo {
 	position:absolute;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	text-shadow:
     -1px -1px 0 #000000,
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 180px;
-    margin-left:90px;
+    margin-top: 170px;
+    margin-left:110px;
 }
 
 
 #peterdo {
 	position:absolute;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 22px;
+	/*width: 355px;*/
 	text-shadow:
     -1px -1px 0 #000000,
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
     margin-top: 45px;
-    margin-left:32px;
+    margin-left:37px;
     text-decoration: none;
 }
 
 #contactpeter {
 	position:absolute;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	text-shadow:
     -1px -1px 0 #000000,
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 165px;
-    margin-left:140px;
+    margin-top: 195px;
+    margin-left:170px;
 }
 
 
@@ -422,9 +423,9 @@ body {
 }
 
 #microtext{
-	font-family: 'Cabin', Georgia, Times, serif;
+	font-family: 'Orbitron', Georgia, Times, serif;
 	position:absolute;
-	font-size: 20px;
+	font-size: 15px;
 	margin-top: 13px;
 	margin-left: 50px;
 	color:white;
@@ -495,9 +496,9 @@ body {
 }
 
 #stucktext{
-	font-family: 'Cabin', Georgia, Times, serif;
+	font-family: 'Orbitron', Georgia, Times, serif;
 	position:absolute;
-	font-size: 20px;
+	font-size: 15px;
 	margin-top: 43px;
 	margin-left: 50px;
 	color:white;
@@ -559,9 +560,9 @@ body {
 }
 
 #programtext{
-	font-family: 'Cabin', Georgia, Times, serif;
+	font-family: 'Orbitron', Georgia, Times, serif;
 	position:absolute;
-	font-size: 20px;
+	font-size: 15px;
 	margin-top:73px;
 	margin-left: 50px;
 	color:white;
@@ -610,7 +611,7 @@ body {
     border-radius:6px;
     color: #fff;
     font-family: 'Oswald';
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     cursor: pointer;
     border:none;
@@ -619,10 +620,10 @@ body {
 }
 
 #MVplayer {
-	font-family: 'Cabin', Georgia, Times, serif;
+	font-family: 'Orbitron', Georgia, Times, serif;
 	color:black;
 	position:absolute;
-	font-size: 20px;
+	font-size: 15px;
 	margin-top:103px;
 	margin-left: 50px;
 	text-decoration: none;
@@ -635,10 +636,10 @@ body {
 }
 
 #direction {
-	font-family: 'Cabin', Georgia, Times, serif;
+	font-family: 'Orbitron', Georgia, Times, serif;
 	color:white;
 	position:absolute;
-	font-size: 20px;
+	font-size: 15px;
 	margin-top:103px;
 	margin-left: 270px;
 	width: 200px;
